@@ -12,7 +12,7 @@ class TextDetection:
     def run_text_detection(self):
         command = [
             "python3",
-            r"/home/ayush/Desktop/English_handwritten/services/tools/infer/predict_det.py",
+            r"services/tools/infer/predict_det.py",
             f"--det_algorithm={self.det_algorithm}",
             f"--det_model_dir={self.det_model_dir}",
             f"--image_dir={self.image_dir}",
