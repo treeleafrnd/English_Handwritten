@@ -1,0 +1,15 @@
+# PyCharm project configuration
+.idea/
+
+# Environment files (optional)
+.env
+
+# Generated files
+__pycache__
+
+# Optional: Virtual environment
+venv/
+
+# Optional: Build or distribution artifacts
+dist/
+build/
